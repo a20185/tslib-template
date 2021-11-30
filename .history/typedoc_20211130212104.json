@@ -1,0 +1,11 @@
+{
+    "name": "TSLib Template",
+    "entryPoints": [
+        "./src/index.ts"
+    ],
+    "theme": "typedoc-neo-theme",
+    "exclude": "./src/**/(demo|impl|spec|test)/*.ts",
+    "plugin": "none",
+    "excludeInternal": true,
+    "out": "build"
+}
